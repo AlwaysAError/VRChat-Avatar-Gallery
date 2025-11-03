@@ -25,21 +25,46 @@ namespace VrcAvatarGallery
         {
             ApplicationConfiguration.Initialize();
 
-            // Try to load a saved login
-            var saved = LoadLoginData();
-            string? token = saved?.Token;
-
-            // Show login dialog
-            using var loginForm = new LoginForm(token);
-            if (loginForm.ShowDialog() != DialogResult.OK ||
-                string.IsNullOrEmpty(loginForm.AuthToken))
+            try
             {
-                return; // user cancelled
-            }
+                var saved = LoadLoginData();
+                string? token = saved?.Token;
 
-            // Start the main UI
-            var mainForm = new MainForm(loginForm.AuthToken, loginForm.SavedLoginData);
-            Application.Run(mainForm);
+                using var loginForm = new LoginForm(token);
+
+                // THIS IS THE KEY: CATCH ANY EXCEPTION FROM THE DIALOG
+                DialogResult result;
+                try
+                {
+                    result = loginForm.ShowDialog();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(
+                        $"Fatal error in login dialog:\n\n{ex.Message}\n\nStack trace:\n{ex.StackTrace}",
+                        "CRASH PREVENTED",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                    return;
+                }
+
+                if (result != DialogResult.OK || string.IsNullOrEmpty(loginForm.AuthToken))
+                {
+                    return; // user cancelled
+                }
+
+                var mainForm = new MainForm(loginForm.AuthToken, loginForm.SavedLoginData);
+                Application.Run(mainForm);
+            }
+            catch (Exception ex)
+            {
+                // FINAL SAFETY NET – should never hit, but just in case
+                MessageBox.Show(
+                    $"FATAL ERROR:\n\n{ex.Message}\n\nStack trace:\n{ex.StackTrace}",
+                    "APPLICATION CRASH",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Stop);
+            }
         }
 
         // ----------------------------------------------------------
