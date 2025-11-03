@@ -9,3 +9,12 @@ VRChat's API is restricted and there for the software use's your account to make
 
 # Known Issues
 Login menu crashing on login.
+
+# Feature's To Be Added In The Future
+Save all of your currently saved avatars,
+Dark mode,
+Logout system,
+Force clone (for public avatars only
+Semi avatar ripper,
+OSC system,
+Change avatar within the menu,
