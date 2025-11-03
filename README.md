@@ -1,5 +1,11 @@
 # VRChat-Avatar-Gallery
 VRChat Avatar Gallery or VRCAG allows any user to saves as many avatars as they want without silly restrictions like paying $9.99 a month for only 300 avatar save slots.
 
+# How Does The Software Work?
+The tool or software allows the user to save avatars by there ID locally removing the hassle of saving them on a server and also allowing the user to save as many as they like.
+
+# Why Do I Need To Login To My VRChat Account?
+VRChat's API is restricted and there for the software use's your account to make all API calls avoiding ban risks and rate limit risks. (Will also be needed for some super cool features in the future)
+
 # Known Issues
 Login menu crashing on login.
