@@ -1,0 +1,17 @@
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\VrcAvatarGallery.LoginForm.resources
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\VrcAvatarGallery.MainForm.resources
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\VrcAvatarGallery.csproj.GenerateResource.cache
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\VrcAvatarGallery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\VrcAvatarGallery.AssemblyInfoInputs.cache
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\VrcAvatarGallery.AssemblyInfo.cs
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\VrcAvatarGallery.csproj.CoreCompileInputs.cache
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\bin\Release\net8.0-windows\VrcAvatarGallery.exe
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\bin\Release\net8.0-windows\VrcAvatarGallery.deps.json
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\bin\Release\net8.0-windows\VrcAvatarGallery.runtimeconfig.json
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\bin\Release\net8.0-windows\VrcAvatarGallery.dll
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\bin\Release\net8.0-windows\VrcAvatarGallery.pdb
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\VrcAvatarGallery.dll
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\refint\VrcAvatarGallery.dll
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\VrcAvatarGallery.pdb
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\VrcAvatarGallery.genruntimeconfig.cache
+C:\Users\SecureSysem\Desktop\VrcAvatarGallery\obj\Release\net8.0-windows\ref\VrcAvatarGallery.dll
