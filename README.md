@@ -22,3 +22,6 @@ VRChat's API is restricted and there for the software use's your account to make
 
 # Can I Get Banned For Using This Software?
 No
+
+# Contact Me
+Discord: mulibovich
